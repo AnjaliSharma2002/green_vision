@@ -1,0 +1,24 @@
+This project is about predicting the type of forest in specific area based on its physical and environmental features:
+elevation, soil type, distance from water,based on sunlight
+
+Why we need to create environment for the new project?
+to create a environment we use VENV module(which is inbuilt in package within the python which is use to create the environment)
+
+what is setup.py?
+setup.py is the build script for setup tools, a tool used to package and distribute python projects. It's like a blueprint that tells a python how to install your project.
+Think of it as the entry point for turing your ML project to reusable python package.
+
+module -> package -> library
+
+if you add __init__.py in a folder, the python will treat the folder as a package.
+
+library is a group is packages
+
+1. package your ML project -> easily reuse and install your code anywhere using the pip install
+2. define dependencies
+3. API entry points
+4. enabels colaboration
+5. create versioned models
+
+setuptools -> python library -> package, distribute and install python projects
+python setup.py install
