@@ -1,0 +1,2 @@
+DATABASE_NAME = "mydata"
+COLLECTION_NAME = "forest"

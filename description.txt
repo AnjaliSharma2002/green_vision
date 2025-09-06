@@ -22,3 +22,66 @@ library is a group is packages
 
 setuptools -> python library -> package, distribute and install python projects
 python setup.py install
+
+-----------
+
+problem statement -> we need to find the forest type (dataset)
+-> EDA -> feature extraction -> feature selection -> model training -> model hyperparameter tuning -> deployment model
+1. Data ingestion (data collection)(raw)
+2. EDA or analysis of the data
+3. feature extraction and selection
+4. model building + evaluation
+5. deployment of model
+
+pipeline :-
+-> training pipeline
+-> prediction pipeline
+
+training pipeline :-> data ingestion -> data transformation -> model trainer -> evaluation
+
+pridiction pipeline:->
+
+frontend (test data) and backend (flask)
+
+-----
+
+In notebooks folder, we will perform the EDA and store the sample data.
+
+-----
+
+utils folder includes all the functions which are used through out the project
+
+other folders in src:
+1. exceptions
+2. logging
+
+----
+In exception folder
+error is the actual exception object (eg. zero division error)
+error_detail is expected to be the sys module so you can call and sys.exc_info()
+
+------
+
+mongo db
+username - sharmaanjali366953
+password - Anju123
+
+---------
+
+make_readable: bool = False
+
+to treat the string like a file -> strin IO
+-> string io is like fake file that lives in the memory not your desk
+-> it lets you read from or write to a string as it were a file
+
+---------
+
+what is a data class?
+A data class is a short cut in python to create classes that are mainly used to store data.
+
+It's automatically creates:
+1. __init__()  -> for assigning values
+2. __repr__() -> for easy printing
+3. __eq__() -> for comparision
+
+--------
